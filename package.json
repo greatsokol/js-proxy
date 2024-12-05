@@ -1,0 +1,18 @@
+{
+  "name": "gs.proxy",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Eugene Sokolov",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "compression": "^1.7.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "express-http-proxy": "^2.1.1",
+    "http-proxy": "^1.18.1",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
